@@ -4,6 +4,15 @@ public abstract class Shape {
 
     private Integer x;
     private Integer y;
+    String color = "blue";
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
 
     public Shape (Integer x, Integer y){
         this.x = x;
