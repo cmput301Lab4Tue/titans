@@ -10,4 +10,6 @@ public class Square extends Shape{
     public Integer getSize(){
         return getX();
     }
+    public void setSize(Integer size){
+        this.x = size;
 }
